@@ -20,7 +20,6 @@ def trade():
         "received_signal": signal,
         "message": f"Executed {signal} trade (simulation for now)"
     })
+
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000)
-
-    
