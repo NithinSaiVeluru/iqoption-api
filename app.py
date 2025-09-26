@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 # Demo credentials
 EMAIL = "vkonda1972@gmail.com"
-PASSWORD = "9177156222"
+PASSWORD = ""
 
 @app.route("/trade", methods=["POST"])
 def trade():
@@ -40,3 +40,4 @@ def trade():
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000)
+
