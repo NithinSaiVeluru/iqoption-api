@@ -1,4 +1,5 @@
 flask
 iqoptionapi
 requests
+websocket
 
