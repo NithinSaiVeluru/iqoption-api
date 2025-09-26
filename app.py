@@ -1,5 +1,5 @@
 from flask import Flask, request, jsonify
-from iqoptionapi.stable_api import IQ_Option
+from iqoptionapi.api import IQ_Option
 import time
 
 app = Flask(__name__)
@@ -40,4 +40,5 @@ def trade():
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000)
+
 
